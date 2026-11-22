@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="min-h-screen flex flex-col">
+    <div id="navbar" class="flex justify-between items-center shadow-md sticky top-0 z-50">
+        <b>My porto portofolio</b>
+       <div>
+         <a href="index.html" class="px-3 py-1 rounded-full transition duration-500 hover:bg-blue-500 hover:!text-purple-500">Home</a>
+        <a href="#about" class="px-3 py-1 rounded-full transition duration-500 hover:bg-blue-500 hover:!text-purple-500">About me</a>
+        <a href="contact.html" class="px-3 py-1 rounded-full transition duration-500 hover:bg-blue-500 hover:!text-purple-500">contact</a>
+       </div>
+
+    </div>
+    <center>
+    <h1 class=" font-bold my-6 text-2xl:">Welcome</h1>
+    </center>
+
+    <!-- profile -->
+
+    <div class="kotak shadow-lg transition duration-300 hover:-translate-y-4 hover:shadow-2xl">
+        <h3 class="text-lg">Helooo</h3>
+        <h2 class="text-2xl font-bold my-2">i'm pamelaaaa
+            <br>manajer 
+        </h2>
+
+        <img src="img/gambarsaya.jpeg" alt="foto" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;" class="mx-auto border-white-4 shadow-lg">
+        
+        <h2 id="about" class="text 2xl font-bold my-2 ">About me</h2>
+        <p>halo semua perkanalkan aku mhs semester 3 program studi manajemen akt 25 </p>
+
+    </div>
+
+    <div class="kotak shadow-lg transition duration-300 hover:translate-y-4 shadow-2xl">
+    <h2 class="font-bolt text-2xl mb-4">call mee</h2>
+    <form method="post" action="pamela.deadhema13@gmail.com" enctype="text/plain">
+        Nama: <br>
+        <input type="text" name="nama" class="rounded-lg p-2 text-black bg-wh"> <br> <br>
+        Email: <br>
+        <input type="text" name="email"> <br> <br>
+
+        Keperluan: <br>
+        <input type="radio" name="keperluan" value="proyek"> proyek
+        <input type="radio" name="keperluan" value="kerja sama"> kerja sama
+        <input type="radio" name="keperluan" value="lainnya"> lainnya
+        <br> <br>
+
+        Pesan: <br>
+        <textarea name="pesan" rows="4" cols="40" class="rounded-lg bg-white text-black"></textarea>
+        <br> <br>
+        <input type="submit" value="kirim" class="bg-black text-orange-300 text-bold px-6 py2 rounded-lg cursor-pointer transition hover:bg-orange-400 hover:text-black">
+        <input type="reset" value="hapus" class="bg-white text-red-500 text-bold px-6 py2 rounded-lg cursor-pointer transition hover:bg-red-500 hover:text-white">
+
+    </form>
+
+    </div>
+
+    <div id="footer" class=" text-center">
+        <div class="max-w 2xl mx-auto py-3">
+            <h4 class="font-bold text-2xl mb-1">let' s work together</h4>
+            <p class="mb-4">punya projek hubungi saya</p>
+            <a href="contact.html" class="ml-0!  px-4 py-1 rounded-full bg-white/20 transition duration-300 hover:bg-white hover:text-black!">Instagram</a>
+            <a href="contact.html" class="ml-0!  px-4 py-1 rounded-full bg-white/20 transition duration-300 hover:bg-white hover:text-black!">WhatsApp</a>
+            <a href="contact.html"class="ml-0!  px-4 py-1 rounded-full bg-white/20 transition duration-300 hover:bg-white hover:text-black!">Linkedin</a>
+            <p class="text-sm opacity-80">&copy; copyright 2026</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
